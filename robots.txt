@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lightwavecreators.github.io/lightwavecreators.github.io/sitemap.xml
+Sitemap: https://lightwavecreators.com/sitemap.xml
