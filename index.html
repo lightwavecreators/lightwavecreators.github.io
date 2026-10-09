@@ -395,14 +395,8 @@
         <h2>Five divisions.<br><span class="hl">One flywheel.</span></h2>
         <p class="lead">Most agencies hand you one piece. We built the whole engine: the <b>Studio</b> produces it, <b>Media</b> makes it seen, <b>TikTok</b> turns it into shop sales, <b>AI</b> converts every enquiry, and the <b>Academy</b> teaches your team to run it themselves.</p>
       </div>
-      <div class="wheel rv d2" aria-hidden="true">
-        <div class="ring"></div><div class="orb"></div>
-        <div class="node n1">Studio<small>Produce</small></div>
-        <div class="node n2">Media<small>Amplify</small></div>
-        <div class="node n5">TikTok<small>Sell</small></div>
-        <div class="node n3">AI<small>Convert</small></div>
-        <div class="node n4">Academy<small>Teach</small></div>
-        <div class="core"><span class="lw mk inv"><img src="https://drive.google.com/thumbnail?id=1X7R518TXpKFdDhNZIxSXzG9GNS_S9yF5&amp;sz=w1600" alt=""></span></div>
+      <div class="ecovid rv d2" aria-hidden="true">
+        <video id="ecoVid" src="https://lightwavecreators.com/assets/lwc-ecosystem.mp4" poster="https://lightwavecreators.com/assets/lwc-ecosystem-poster.jpg" autoplay muted loop playsinline preload="auto" disablepictureinpicture disableremoteplayback></video>
       </div>
     </div>
     <div class="div-grid">
@@ -880,5 +874,6 @@ cards.forEach(function(c){var im=c.querySelector('img');if(im)im.setAttribute('d
 render();auto();
 })();
 </script>
+<script>(function(){var v=document.getElementById('ecoVid');if(!v)return;v.muted=true;v.defaultMuted=true;var p=function(){var r=v.play();if(r&&r.catch)r.catch(function(){})};if('IntersectionObserver'in window){var seen=false;new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){if(!seen){seen=true;try{v.currentTime=0}catch(_){}}p()}else{v.pause();seen=false}})},{threshold:.35}).observe(v)}else p()})();</script>
 </body>
 </html>
