@@ -117,6 +117,7 @@ header.solid .brand .lw{width:150px}
 .lg:hover .lc{transform:scale(1.08)}
 .lg:hover img{filter:none;opacity:1}
 .lg.inv:hover img{filter:invert(1)}
+.lg.roy img{filter:none;opacity:1}
 @keyframes mq{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.ltrack{animation:none;flex-wrap:wrap;justify-content:center;width:auto;gap:36px 48px}}
 
